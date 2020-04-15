@@ -1,0 +1,41 @@
+*{
+margin: 0px;
+padding: 0px;
+
+}
+body{
+    text-align: center;
+    color: gray;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin: 30px;
+
+}
+.languages{
+    width: 400px;
+    height: 400px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.language{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: papayawhip;
+    border: 1px solid gray;
+    margin: 2px;
+}
+
+button{
+    color: gray;
+    background-color: #0000;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+}
